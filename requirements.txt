@@ -1,0 +1,10 @@
+streamlit>=1.20
+python-dotenv>=1.0
+langgraph>=0.1
+langchain-core>=0.1
+langchain-google-genai>=0.1
+
+# Notes:
+# - These are the primary runtime packages used by the project. Pin exact versions
+#   if you want reproducible installs (e.g. `package==1.2.3`).
+# - `sqlite3` is part of the Python standard library and requires no pip entry.
